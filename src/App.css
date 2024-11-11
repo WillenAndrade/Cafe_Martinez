@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+header {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(14, 27,42);
+  background: #12121d;
+}
+
+.logo {
+  width: 118px;
+  height: 110px;
+  background-image: url("./assets/logomenor.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 60px;
+  padding: 0 10px;
+}
+
+.line {
+  width: 100%;
+  height: 5px;
+  background: rgb(219,167,68);
+}
+
+.title {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: white;
+}
+  .coffe-img {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    background-image: url("./assets/amostras2.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 14px;
+  }
+
+  h2 {
+    background: linear-gradient(to right, rgb(199, 141, 73), rgb(242, 193, 120) );
+    padding: 0 10px;
+    font-weight: 400;
+    color: rgb(14, 27,42);
+  }
+
+  .description {
+    width: 100%;
+    height: 300px;
+    background: rgb(28,28,28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .description h3 {
+    width: 90%;
+    color: white;
+    font-size: 22px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+  }
+
+  .buy {
+    width: 100%;
+    height: 500px;
+    background: url("./assets/chicarabranca.avif");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+  }
+
+.card-container {
+  background: linear-gradient(to right, rgb(199, 141, 73), rgb(242, 193, 120) );
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card-container-top {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  background: linear-gradient(to right, rgb(199, 141, 73), rgb(242, 193, 120) );
+}
+
+.card-container-bottom {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: rgb(28,28,28);
+  color: white;
+}
+
+.col {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  padding: 0 8px;
+}
+
+.test {
+  width: 100%;
+  height: 600px;
+  background: url("./assets/graos2.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  display: none;
+}
+
+
+button {
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    background: linear-gradient(to right, rgb(199, 141, 73), rgb(242, 193, 120) );
+    padding: 0 10px;
+    font-weight: 400;
+    color: rgb(14, 27,42);
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+
+@media (min-width: 400px) {
+  .title {
+    height: 680px;
+  }
+  .coffe-img {
+    height: 680px;
+  }
+
+  .test {
+    height: 500px;
+  }
+}
+
+
