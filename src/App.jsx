@@ -18,18 +18,17 @@ function App() {
           </div>
       </div>
       <div className="line"></div>
-      
       <div className="description">
           <h3>Produzido com grãos selecionados, nosso café é ideal para quem busca qualidade em um sabor suave  e autenticidade  incomparável!</h3>
       </div>
       <div className="line"></div>
-      <div className="test"></div>
+      <Carrousel />
       <div className="line"></div>
+      <div className="test"></div>
       <div className="buy">
-          
       </div>
       <div className="line"></div>
-      <Carrousel />
+      
       
           
     </>

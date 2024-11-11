@@ -26,11 +26,11 @@ const Carrousel = () => {
 
     const nextSlide = () => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
-        console.log(currentIndex)
+        console.log(`Este é o Index do carrousel: ${currentIndex}`)
       };
       const prevSlide = () => {
         setCurrentIndex((prevIndex) => (prevIndex - 1 + slides.length) % slides.length);
-        console.log(currentIndex)
+        console.log(`Este é o Index do carrousel: ${currentIndex}`)
       };
 
     return (
