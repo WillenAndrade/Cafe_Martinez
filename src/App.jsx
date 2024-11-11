@@ -26,11 +26,9 @@ function App() {
       <div className="line"></div>
       <div className="test"></div>
       <div className="buy">
+        <button>Garanta já o seu!</button>
       </div>
-      <div className="line"></div>
-      
-      
-          
+      <div className="line"></div>          
     </>
   )
 }
