@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import './Carrousel.css';
 
 import slide1 from '../assets/slide1.jpg';
@@ -7,6 +7,7 @@ import slide2 from '../assets/slide2.jpg';
 
 
 const Carrousel = () => {
+    
     const slides = [slide1, slide2];
     const variedade = [
         {
@@ -33,11 +34,18 @@ const Carrousel = () => {
         console.log(`Este é o Index do carrousel: ${currentIndex}`)
       };
 
+      useEffect(() => {
+        const intervalId = setInterval(nextSlide, 7000);  
+        return () => clearInterval(intervalId);
+    }, []);
+
+      
+
     return (
         <div className="carousel-container">
             <div className="carousel">
                 <div className="carousel-btn prev" onClick={prevSlide}>
-                   <p>&lt;</p>
+                   <p id="prev-btn">&lt;</p>
                 </div>
                 
                 <div className="carousel-slide" style={{ backgroundImage: `url(${slides[currentIndex]})` }}>
@@ -58,7 +66,7 @@ const Carrousel = () => {
                 </div>
 
                 <div className="carousel-btn next" onClick={nextSlide}>
-                <p>&gt;</p>
+                <p id="next-btn">&gt;</p>
                 </div>
             </div>
         </div>
