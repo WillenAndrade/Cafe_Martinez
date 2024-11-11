@@ -87,42 +87,7 @@ header {
     font-weight: 300;
   }
 
-.card-container {
-  background: linear-gradient(to right, rgb(199, 141, 73), rgb(242, 193, 120) );
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
 
-.card-container-top {
-  width: 100%;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 10px 10px 0 0;
-  color: white;
-  background: linear-gradient(to right, rgb(199, 141, 73), rgb(242, 193, 120) );
-}
-
-.card-container-bottom {
-  width: 100%;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 10px;
-  background: rgb(28,28,28);
-  color: white;
-}
-
-.col {
-  width: 20%;
-  display: flex;
-  justify-content: center;
-  padding: 0 8px;
-}
 
 .test {
   width: 100%;

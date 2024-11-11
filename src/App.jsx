@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-
+import Carrousel from './components/Carrousel'
 import { Link } from 'react-router-dom'
 
 function App() {
@@ -26,22 +26,10 @@ function App() {
       <div className="test"></div>
       <div className="line"></div>
       <div className="buy">
-          <div className="card-container">
-                  <div class="card-container-top">
-                      <div class="col">SABOR</div>
-                      <div class="col">AROMA</div>
-                      <div class="col">ACIDEZ</div>
-                      <div class="col">CORPO</div>
-                  </div>
-                  <div class="card-container-bottom">
-                    <div class="col">Cremoso</div>
-                    <div class="col">Intenso</div>
-                    <div class="col">Média</div>
-                    <div class="col">Encorpado</div>
-                 </div>
-           </div>
+          
       </div>
       <div className="line"></div>
+      <Carrousel />
       
           
     </>
