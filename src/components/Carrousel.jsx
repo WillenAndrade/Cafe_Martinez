@@ -47,7 +47,6 @@ const Carrousel = () => {
                 <div className="carousel-btn prev" onClick={prevSlide}>
                    <p id="prev-btn">&lt;</p>
                 </div>
-                
                 <div className="carousel-slide" style={{ backgroundImage: `url(${slides[currentIndex]})` }}>
                         <div className="card-container">
                             <div class="card-container-top">
@@ -64,7 +63,6 @@ const Carrousel = () => {
                             </div>
                         </div>
                 </div>
-
                 <div className="carousel-btn next" onClick={nextSlide}>
                 <p id="next-btn">&gt;</p>
                 </div>
