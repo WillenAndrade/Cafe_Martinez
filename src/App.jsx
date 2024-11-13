@@ -23,9 +23,6 @@ function App() {
     },
     { message: "Entregamos na porta de sua casa!",
       style: "description-p-two"
-    },
-    { message: "Peça seu café já!",
-      style: "description-p-two"
     }
   ]
 
@@ -52,14 +49,16 @@ function App() {
         {/* <button>Garanta já o seu!</button>*/}
       </div>   
       <div className="line"></div>
-      <Carrousel />
-      <div className="line"></div>
       <div className="description-two">
           <p className={promotionMessage[messageIndex].style}>{promotionMessage[messageIndex].message}</p>
       </div>
       <div className="line"></div>
-      
-        
+      <Carrousel />
+      <div className="line"></div>
+      <div className="test">
+          <button>Peça seu café aqui!</button>
+      </div>
+      <div className="line"></div>
     </>
   )
 }
