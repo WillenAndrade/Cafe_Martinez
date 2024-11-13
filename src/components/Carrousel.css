@@ -63,6 +63,7 @@
     font-weight: 300;
     color: rgb(28,28,28);
     color: white;
+    color: rgb(219,167,68);
   }
   
   .buy-btn {
@@ -85,7 +86,6 @@
     background: linear-gradient(to right, rgb(199, 141, 73), rgb(242, 193, 120) );
     border-radius: 10px;
     margin-bottom: 20px;
-    animation: pulse 2s infinite; 
   }
   
   .card-container-top {
@@ -96,7 +96,6 @@
     align-items: center;
     gap: 10px;
     border-radius: 10px 10px 0 0;
-    
     background: linear-gradient(to right, rgb(199, 141, 73), rgb(242, 193, 120) );
     padding: 0 5px;
   }
@@ -121,7 +120,6 @@
     padding: 0 8px;
     font-size: 20px;
   }
-
 
   @keyframes pulse {
     0% {
